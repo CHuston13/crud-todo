@@ -1,0 +1,30 @@
+/* src/Task.css */
+.task {
+    margin: 8px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+ 
+  
+  .task-text {
+    cursor: pointer;
+    flex-grow: 1;
+   
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .delete-button {
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
