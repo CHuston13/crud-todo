@@ -41,6 +41,9 @@ input {
   padding: 0;
   
 }
+.task-text{
+  color: white;
+}
 
 .task-item {
   margin-bottom: 10px;
@@ -53,6 +56,10 @@ input {
 
 .task-item:hover {
   background-color: #f0f0f0;
+}
+
+.delete-button{
+background-color: red;
 }
 
 .completed {
