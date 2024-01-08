@@ -13,6 +13,7 @@
   .task-text {
     cursor: pointer;
     flex-grow: 1;
+    color: white;
    
   }
   
